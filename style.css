@@ -1,0 +1,65 @@
+#guitarra1 {
+    width: 120px;
+    height: 400px;
+}
+#guitarra2 {
+    width: 150px;
+    height: 400px;
+}
+#guitarra3 {
+    width: 150px;
+    height: 400px;
+}
+
+
+
+
+body{
+    background-color: #8E5ED2;
+}
+
+h1, h4{
+    font-family: "Roboto Mono", monospace;
+    color: #101010;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4{
+	font-style: 12px;
+}
+.productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #4F2d72;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.info {
+    font-family: "Roboto Mono", monospace;
+	text-align: center;
+	color: white;
+    background-color: #4F2d72;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ul{
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+	background-color: #4F2d72;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	
+}
+
+a:hover{
+    color: #BF6FF0;
+}
